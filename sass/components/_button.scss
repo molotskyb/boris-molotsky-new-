@@ -1,0 +1,9 @@
+.btn {
+	padding: 1rem;
+
+	&:hover,
+	&:active {
+		color: $hover-color-2;
+		background-color: $welcome-bg-color;
+	}
+}

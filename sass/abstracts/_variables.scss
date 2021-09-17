@@ -1,0 +1,30 @@
+// RESPONSIVE BREAKPOINTS
+
+$bp-max: 162.5em; // 2600px:16
+$bp-largest: 75em; // 1200px:16
+$bp-large: 62.5em; // 1000px:16
+$bp-medium: 50em; //800px:16
+$bp-small: 37.5em; //600px:16
+$bp-smallest: 25em; //400px:16
+
+// FONT VARIABLES
+
+$huge-font-size: 6rem;
+$big-font-size: 4rem;
+$medium-font-size: 3rem;
+$small-font-size: 2rem;
+$small-font-size-2: 2.6rem;
+$general-font-size: 1.6rem;
+
+$welcome-font-1: "IBM Plex Sans Arabic", sans-serif;
+$welcome-font-2: "Quicksand", sans-serif;
+$welcome-font-3: "Roboto", sans-serif;
+
+// COLOR VARIABLES
+
+$welcome-bg-color: rgba(10, 25, 47, 0.85);
+$text-color-1: rgb(136, 146, 176);
+$projects-bg-color: rgba(255, 166, 0, 0.514);
+$hover-color: #64ffda;
+// $hover-color-2: #00ffd5;
+$hover-color-2: #ffee00;

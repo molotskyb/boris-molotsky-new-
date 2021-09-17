@@ -1,0 +1,17 @@
+// .sidebar {
+// 	// background-color: $projects-bg-color;
+// 	// background-color: white;
+// }
+
+.social {
+	&__icon {
+		fill: $welcome-bg-color;
+		width: 4rem;
+		height: 4rem;
+		margin-top: 2rem;
+
+		&:hover {
+			fill: $text-color-1;
+		}
+	}
+}

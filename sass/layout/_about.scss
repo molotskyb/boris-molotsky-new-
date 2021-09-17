@@ -1,0 +1,23 @@
+.about {
+	background-color: white;
+	margin: 2em;
+
+	&__text {
+		&--1 {
+			// margin: 2rem;
+			margin-top: 4rem;
+			margin-bottom: 4rem;
+			// margin-left: -0.3rem;
+		}
+	}
+
+	&__img {
+		max-height: 52.5vh;
+		max-width: 30vw;
+
+		@media only screen and (max-width: $bp-medium) {
+			max-height: 55vh;
+			// max-width: 30vw;
+		}
+	}
+}

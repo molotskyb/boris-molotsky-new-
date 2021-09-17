@@ -1,0 +1,43 @@
+.myprojects {
+	// background-color: $welcome-bg-color;
+	// background-color: white;
+	background-color: $projects-bg-color;
+	// background-color: rgba(0, 132, 255, 0.384);
+	// margin-top: 12vh;
+	padding-bottom: 8rem;
+
+	&__icon {
+		fill: $text-color-1;
+		width: 9rem;
+		height: 9rem;
+		transform: translateY(-1rem);
+
+		// &:hover {
+		// 	// fill: rgba(0, 132, 255, 0.438);
+		// 	fill: $hover-color-2;
+		// }
+	}
+
+	&__text {
+		&--1 {
+			// margin: 2rem;
+			margin-top: 4rem;
+			// margin-left: -0.3rem;
+		}
+	}
+
+	&__box {
+		background-color: white;
+		padding: 2.5rem;
+		border-radius: 3px;
+		box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
+		transition: transform 0.3s;
+
+		&:hover {
+			transform: translateY(-0.5rem) scale(1.03);
+			// color: $hover-color-2;
+			color: white;
+			background-color: $welcome-bg-color;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.nav__link {
+	&:hover {
+		color: $hover-color-2;
+	}
+}
+
+//hambugerresponsivenavigation:
+
+.hamburger {
+	background-color: $welcome-bg-color;
+	padding: 0.5rem;
+	margin: 2rem;
+	border-color: white;
+
+	@media only screen and (max-width: $bp-small) {
+		margin: 1rem;
+	}
+}
+
+.bar {
+	display: block;
+	width: 6rem;
+	height: 0.6rem;
+	margin: 1rem auto;
+	// margin-left: 1rem;
+
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+
+	@media only screen and (max-width: $bp-small) {
+		width: 3em;
+		height: 0.3em;
+		margin: 0.5em auto;
+	}
+}
+
+.hamburger.active .bar:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+	transform: translateY(1.65rem) rotate(135deg);
+
+	@media only screen and (max-width: $bp-small) {
+		transform: translateY(0.85em) rotate(135deg);
+	}
+}
+
+.hamburger.active .bar:nth-child(3) {
+	transform: translateY(-1.65rem) rotate(-135deg);
+
+	@media only screen and (max-width: $bp-small) {
+		transform: translateY(-0.85em) rotate(-135deg);
+	}
+}

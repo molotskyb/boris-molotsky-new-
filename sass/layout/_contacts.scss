@@ -1,0 +1,137 @@
+.contacts {
+	margin-top: 12rem;
+	margin-bottom: 12rem;
+
+	@media only screen and (max-width: $bp-small) {
+		margin-top: 6vh;
+		margin-bottom: 6vh;
+	}
+
+	&__img {
+		// max-height: 41vh;
+		// max-width: 25vw;
+		width: 28rem;
+		height: 36rem;
+		// padding: 2rem;
+
+		@media only screen and (max-width: $bp-small) {
+			width: 100%;
+			height: 90%;
+			margin-top: 4rem;
+		}
+	}
+
+	&__heading {
+		background-color: $welcome-bg-color;
+		padding: 1rem 4rem;
+		margin-bottom: 12rem;
+
+		@media only screen and (max-width: $bp-small) {
+			margin-bottom: 3vh;
+		}
+	}
+
+	&__txt {
+		// background-color: $color-contacts;
+		padding: 1em;
+		// margin: 4rem;
+		margin-left: -1em;
+
+		@media only screen and (max-width: $bp-small) {
+			padding: 1rem;
+
+			margin-right: 1rem;
+		}
+		@media only screen and (max-width: $bp-smallest) {
+			margin-right: 0rem;
+		}
+	}
+	&__link {
+		color: black;
+		list-style: none;
+	}
+
+	&__form {
+		// background-color: $welcome-bg-color;
+		background-color: white;
+		padding: 4em;
+
+		@media only screen and (max-width: $bp-small) {
+			margin-top: 6vh;
+		}
+	}
+}
+
+form {
+	margin-bottom: 8em;
+}
+
+textarea {
+	width: 35vw;
+	// @media only screen and (max-width: $bp-small) {
+	// 	width: 100%;
+	// }
+}
+
+// .form__btn {
+// 	margin: -6rem;
+// }
+
+.form {
+	&__headline {
+		// margin-top: 2vh;
+		margin-bottom: 2vh;
+
+		@media only screen and (max-width: $bp-small) {
+			margin-top: 2vh;
+			margin-bottom: 2vh;
+		}
+	}
+
+	&__input {
+		width: 100%;
+
+		// &[type="text"] {
+		// 	border: 1px 2px red;
+		// }
+
+		// &:focus {
+		// 	border-color: red;
+		// }
+
+		// &--email {
+		// 	width: 100%;
+		// }
+	}
+
+	&__item {
+		margin-bottom: 2rem;
+	}
+
+	&__btn {
+		// margin: 1em;
+		// margin-left: 45rem;
+		// display: block;
+		float: right;
+		margin-top: 2rem;
+		padding: 1rem;
+		cursor: pointer;
+		color: white;
+		background-color: $welcome-bg-color;
+		// transition: transform 0.3s;
+
+		// &:link,
+		// &:visited {
+		// }
+
+		&:hover,
+		&:active {
+			// padding: 1em;
+			color: $hover-color-2;
+
+			// background-color: $text-color-1;
+			// transform: translateY(-3px);
+			// transform: translateY(-0.3rem);
+		}
+	}
+}
