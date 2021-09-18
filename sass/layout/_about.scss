@@ -31,6 +31,9 @@
 
 		@media only screen and (max-width: $bp-small) {
 			max-width: 70vw;
+			height: 40vh;
+			margin-top: -8rem;
+			margin-bottom: -6rem;
 		}
 	}
 }
