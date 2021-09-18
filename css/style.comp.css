@@ -46,58 +46,120 @@ a {
 .social {
   list-style: none; }
 
+@media only screen and (max-width: 50em) {
+  .nav__link {
+    font-size: 4rem;
+    font-weight: 600; } }
+
+@media only screen and (max-width: 37.5em) {
+  .nav__link {
+    font-size: 6rem; } }
+
 .welcome__text--1 {
   font-size: 6rem;
   font-family: "IBM Plex Sans Arabic", sans-serif;
   color: white; }
+  @media only screen and (max-width: 37.5em) {
+    .welcome__text--1 {
+      font-size: 10rem; } }
 
 .welcome__text--2 {
   font-size: 4rem;
   font-family: "Quicksand", sans-serif;
   color: #8892b0; }
+  @media only screen and (max-width: 37.5em) {
+    .welcome__text--2 {
+      font-size: 6rem; } }
 
 .welcome__text--btn {
   font-size: 2rem;
-  font-family: "Quicksand", sans-serif;
-  color: black; }
+  font-family: "Quicksand", sans-serif; }
+  @media only screen and (max-width: 50em) {
+    .welcome__text--btn {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .welcome__text--btn {
+      font-size: 6rem; } }
 
 .about__text--1 {
   font-size: 4rem;
   font-family: "Quicksand", sans-serif;
   color: #8892b0; }
+  @media only screen and (max-width: 37.5em) {
+    .about__text--1 {
+      font-size: 10rem; } }
 
 .about__text--2 {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
+  @media only screen and (max-width: 50em) {
+    .about__text--2 {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .about__text--2 {
+      font-size: 6rem; } }
 
 .about__text--3 {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
+  @media only screen and (max-width: 50em) {
+    .about__text--3 {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .about__text--3 {
+      font-size: 6rem; } }
 
 .about__text--4 {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
+  @media only screen and (max-width: 50em) {
+    .about__text--4 {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .about__text--4 {
+      font-size: 6rem; } }
 
 .about__text--5 {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
+  @media only screen and (max-width: 50em) {
+    .about__text--5 {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .about__text--5 {
+      font-size: 6rem; } }
 
 .about__text--6 {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
+  @media only screen and (max-width: 50em) {
+    .about__text--6 {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .about__text--6 {
+      font-size: 6rem; } }
 
 .myprojects__text--1 {
   font-size: 4rem;
   font-family: "Quicksand", sans-serif;
   color: #8892b0; }
+  @media only screen and (max-width: 37.5em) {
+    .myprojects__text--1 {
+      font-size: 10rem; } }
 
 .myprojects__box {
   font-size: 1.6rem; }
+  @media only screen and (max-width: 50em) {
+    .myprojects__box {
+      font-size: 2.6rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .myprojects__box {
+      font-size: 5.8rem; } }
 
 .header {
   font-size: 2rem;
@@ -114,6 +176,9 @@ a {
   font-size: 2rem;
   font-family: "IBM Plex Sans Arabic", sans-serif;
   color: #8892b0; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      font-size: 5.8rem; } }
 
 .popup__close {
   font-size: 4rem; }
@@ -161,6 +226,9 @@ textarea {
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
       background-color: rgba(0, 0, 0, 0.3); } }
+  .popup__pic {
+    margin-left: 6rem;
+    margin-bottom: 9rem; }
   .popup__content {
     position: absolute;
     top: 50%;
@@ -200,14 +268,6 @@ textarea {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
-  .popup .scroll {
-    margin: 3rem, 3rem;
-    margin-bottom: 4rem;
-    padding: 1rem;
-    width: 100%;
-    height: 20rem;
-    overflow-x: hidden;
-    overflow-y: auto; }
   .popup:target {
     opacity: 1;
     visibility: visible; }
@@ -232,6 +292,9 @@ textarea {
   display: grid;
   grid-template-rows: repeat(5, auto);
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
+  @media only screen and (max-width: 37.5em) {
+    .container {
+      grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; } }
 
 .sidebar {
   grid-column: sidebar-start / sidebar-end;
@@ -239,6 +302,12 @@ textarea {
   top: 0vh;
   justify-self: center;
   align-self: center; }
+  @media only screen and (max-width: 50em) {
+    .sidebar {
+      top: 2vh; } }
+  @media only screen and (max-width: 37.5em) {
+    .sidebar {
+      display: none; } }
 
 .header {
   grid-column: full-start / full-end; }
@@ -249,6 +318,21 @@ textarea {
   grid-gap: 2rem;
   justify-items: center;
   align-items: center; }
+  @media only screen and (max-width: 50em) {
+    .nav__links {
+      display: none; } }
+  .nav__links.active {
+    display: block;
+    float: right; }
+
+.navigation-mobile {
+  display: none; }
+  @media only screen and (max-width: 50em) {
+    .navigation-mobile {
+      display: grid;
+      grid-column: 6 / span 1;
+      justify-items: end;
+      align-items: center; } }
 
 .nav__item--1 {
   grid-column: 4 / span 1; }
@@ -264,53 +348,85 @@ textarea {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 15vh 10vh 15vh;
-  grid-gap: 1rem;
+  grid-gap: 4rem;
   height: 100vh; }
   .welcome__text--1 {
     grid-column: 2 / span 4;
     grid-row: 1 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 62.5em) {
+      .welcome__text--1 {
+        grid-row: 2 / span 1; } }
   .welcome__text--2 {
     grid-column: 2 / span 4;
     grid-row: 2 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 62.5em) {
+      .welcome__text--2 {
+        grid-row: 3 / span 1; } }
   .welcome__text--btn {
-    grid-column: 2 / span 1;
+    grid-column: 2 / span 2;
     grid-row: 3 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 62.5em) {
+      .welcome__text--btn {
+        grid-row: 4 / span 2;
+        align-self: flex-start; } }
 
 .about {
   grid-column: full-start / full-end;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: auto auto 10vh auto;
+  grid-template-rows: auto;
   grid-gap: 1rem;
   height: 100vh; }
+  @media only screen and (max-width: 37.5em) {
+    .about {
+      height: 135vh; } }
   .about__text--1 {
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 4;
     grid-row: 1 / span 1;
     align-self: center; }
   .about__text--2 {
     grid-column: 2 / span 4;
     grid-row: 2 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 37.5em) {
+      .about__text--2 {
+        grid-column: 1 / span 6; } }
   .about__text--3 {
     grid-column: 2 / span 4;
     grid-row: 3 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 37.5em) {
+      .about__text--3 {
+        grid-column: 1 / span 6; } }
   .about__text--4 {
     grid-column: 2 / span 1;
-    grid-row: 4 / span 1; }
+    grid-row: 4 / span 1;
+    justify-self: start; }
+    @media only screen and (max-width: 37.5em) {
+      .about__text--4 {
+        grid-column: 1 / span 1; } }
   .about__text--5 {
     grid-column: 3 / span 1;
-    grid-row: 4 / span 1; }
+    grid-row: 4 / span 1;
+    justify-self: stretch; }
   .about__text--6 {
     grid-column: 4 / span 1;
-    grid-row: 4 / span 1; }
+    grid-row: 4 / span 1;
+    justify-self: end; }
+    @media only screen and (max-width: 37.5em) {
+      .about__text--6 {
+        grid-column: 5 / span 1; } }
   .about__pic {
     grid-column: 6 / span 1;
     grid-row: 3 / span 2;
     align-self: center; }
+    @media only screen and (max-width: 37.5em) {
+      .about__pic {
+        grid-column: 1 / span 6;
+        grid-row: 5 / span 2; } }
 
 .myprojects {
   grid-column: full-start / full-end;
@@ -319,37 +435,65 @@ textarea {
   grid-template-rows: auto;
   grid-gap: 4rem; }
   .myprojects__text--1 {
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 4;
     grid-row: 1 / span 1;
     align-self: center; }
   .myprojects__text--2 {
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .myprojects__text--2 {
+        grid-column: 2 / span 4;
+        grid-row: 2 / span 1; } }
   .myprojects__text--3 {
     grid-column: 4 / span 2;
     grid-row: 2 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .myprojects__text--3 {
+        grid-column: 2 / span 4;
+        grid-row: 3 / span 1; } }
   .myprojects__text--4 {
     grid-column: 2 / span 2;
     grid-row: 3 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .myprojects__text--4 {
+        grid-column: 2 / span 4;
+        grid-row: 4 / span 1; } }
   .myprojects__text--5 {
     grid-column: 4 / span 2;
     grid-row: 3 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .myprojects__text--5 {
+        grid-column: 2 / span 4;
+        grid-row: 5 / span 1; } }
   .myprojects__text--6 {
     grid-column: 2 / span 2;
     grid-row: 4 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .myprojects__text--6 {
+        grid-column: 2 / span 4;
+        grid-row: 6 / span 1; } }
   .myprojects__text--7 {
     grid-column: 4 / span 2;
     grid-row: 4 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .myprojects__text--7 {
+        grid-column: 2 / span 4;
+        grid-row: 7 / span 1; } }
   .myprojects__text--8 {
     grid-column: 2 / span 2;
     grid-row: 5 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .myprojects__text--8 {
+        grid-column: 2 / span 4;
+        grid-row: 8 / span 1; } }
 
 .footer {
   background-color: slateblue;
@@ -369,16 +513,69 @@ textarea {
 .nav__link:hover {
   color: #ffee00; }
 
-.about {
+.hamburger {
+  background-color: rgba(10, 25, 47, 0.85);
+  padding: 0.5rem;
+  margin: 2rem;
+  border-color: white; }
+  @media only screen and (max-width: 37.5em) {
+    .hamburger {
+      margin: 1rem; } }
+
+.bar {
+  display: block;
+  width: 6rem;
+  height: 0.6rem;
+  margin: 1rem auto;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: white; }
+  @media only screen and (max-width: 37.5em) {
+    .bar {
+      width: 3em;
+      height: 0.3em;
+      margin: 0.5em auto; } }
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0; }
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(1.65rem) rotate(135deg); }
+  @media only screen and (max-width: 37.5em) {
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(0.85em) rotate(135deg); } }
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-1.65rem) rotate(-135deg); }
+  @media only screen and (max-width: 37.5em) {
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-0.85em) rotate(-135deg); } }
+
+.about {
+  background-color: white;
+  margin: 2em; }
   .about__text--1 {
-    margin: 2rem; }
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .about__text--1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem; } }
   .about__img {
-    max-height: 57vh;
+    max-height: 52.5vh;
     max-width: 30vw; }
+    @media only screen and (max-width: 50em) {
+      .about__img {
+        max-height: 55vh; } }
+    @media only screen and (max-width: 37.5em) {
+      .about__img {
+        max-width: 70vw;
+        z-index: 30; } }
 
 .myprojects {
   background-color: rgba(255, 166, 0, 0.514);
+  z-index: 3000;
   padding-bottom: 8rem; }
   .myprojects__icon {
     fill: #8892b0;
@@ -386,9 +583,7 @@ textarea {
     height: 9rem;
     transform: translateY(-1rem); }
   .myprojects__text--1 {
-    margin: 2rem;
-    margin-top: 4rem;
-    margin-left: -0.3rem; }
+    margin-top: 4rem; }
   .myprojects__box {
     background-color: white;
     padding: 2.5rem;
@@ -457,8 +652,6 @@ textarea {
 
 .form__input {
   width: 100%; }
-  .form__input :focus {
-    border: brown; }
 
 .form__item {
   margin-bottom: 2rem; }
@@ -470,20 +663,16 @@ textarea {
   cursor: pointer;
   color: white;
   background-color: rgba(10, 25, 47, 0.85); }
-  .form__btn:link, .form__btn:visited {
-    transition: all 0.2s; }
   .form__btn:hover, .form__btn:active {
-    color: #ffee00;
-    background-color: rgba(10, 25, 47, 0.9);
-    transform: translateY(-3px); }
+    color: #ffee00; }
 
 .social__icon {
-  fill: red;
+  fill: rgba(10, 25, 47, 0.85);
   width: 4rem;
   height: 4rem;
   margin-top: 2rem; }
   .social__icon:hover {
-    fill: #ffee00; }
+    fill: #8892b0; }
 
 .welcome {
   background-color: rgba(10, 25, 47, 0.85); }

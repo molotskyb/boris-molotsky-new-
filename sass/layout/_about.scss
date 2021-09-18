@@ -2,6 +2,10 @@
 	background-color: white;
 	margin: 2em;
 
+	@media only screen and (max-width: $bp-small) {
+		padding: 2rem;
+	}
+
 	&__text {
 		&--1 {
 			// margin: 2rem;
@@ -23,6 +27,10 @@
 		@media only screen and (max-width: $bp-medium) {
 			max-height: 55vh;
 			// max-width: 30vw;
+		}
+
+		@media only screen and (max-width: $bp-small) {
+			max-width: 70vw;
 		}
 	}
 }
