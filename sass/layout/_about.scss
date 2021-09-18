@@ -10,8 +10,8 @@
 			// margin-left: -0.3rem;
 
 			@media only screen and (max-width: $bp-small) {
-				margin-top: 0rem;
-				margin-bottom: 0rem;
+				margin-top: 2rem;
+				margin-bottom: 2rem;
 			}
 		}
 	}
@@ -23,11 +23,6 @@
 		@media only screen and (max-width: $bp-medium) {
 			max-height: 55vh;
 			// max-width: 30vw;
-		}
-
-		@media only screen and (max-width: $bp-small) {
-			max-height: 45vh;
-			max-width: 39vw;
 		}
 	}
 }

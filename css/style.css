@@ -98,7 +98,7 @@ a {
       font-size: 2.6rem; } }
   @media only screen and (max-width: 37.5em) {
     .about__text--2 {
-      font-size: 5.8rem; } }
+      font-size: 6rem; } }
 
 .about__text--3 {
   font-size: 2rem;
@@ -109,7 +109,7 @@ a {
       font-size: 2.6rem; } }
   @media only screen and (max-width: 37.5em) {
     .about__text--3 {
-      font-size: 5.8rem; } }
+      font-size: 6rem; } }
 
 .about__text--4 {
   font-size: 2rem;
@@ -120,7 +120,7 @@ a {
       font-size: 2.6rem; } }
   @media only screen and (max-width: 37.5em) {
     .about__text--4 {
-      font-size: 5.8rem; } }
+      font-size: 6rem; } }
 
 .about__text--5 {
   font-size: 2rem;
@@ -131,7 +131,7 @@ a {
       font-size: 2.6rem; } }
   @media only screen and (max-width: 37.5em) {
     .about__text--5 {
-      font-size: 5.8rem; } }
+      font-size: 6rem; } }
 
 .about__text--6 {
   font-size: 2rem;
@@ -142,7 +142,7 @@ a {
       font-size: 2.6rem; } }
   @media only screen and (max-width: 37.5em) {
     .about__text--6 {
-      font-size: 5.8rem; } }
+      font-size: 6rem; } }
 
 .myprojects__text--1 {
   font-size: 4rem;
@@ -557,18 +557,14 @@ textarea {
     margin-bottom: 4rem; }
     @media only screen and (max-width: 37.5em) {
       .about__text--1 {
-        margin-top: 0rem;
-        margin-bottom: 0rem; } }
+        margin-top: 2rem;
+        margin-bottom: 2rem; } }
   .about__img {
     max-height: 52.5vh;
     max-width: 30vw; }
     @media only screen and (max-width: 50em) {
       .about__img {
         max-height: 55vh; } }
-    @media only screen and (max-width: 37.5em) {
-      .about__img {
-        max-height: 45vh;
-        max-width: 39vw; } }
 
 .myprojects {
   background-color: rgba(255, 166, 0, 0.514);
