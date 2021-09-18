@@ -162,9 +162,9 @@
 	grid-gap: 1rem;
 	height: 100vh;
 
-	// @media only screen and (max-width: $bp-small) {
-	// 	height: auto;
-	// }
+	@media only screen and (max-width: $bp-small) {
+		height: 130vh;
+	}
 
 	&__text {
 		&--1 {
