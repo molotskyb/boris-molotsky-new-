@@ -433,7 +433,7 @@ textarea {
   grid-template-rows: auto;
   grid-gap: 1rem;
   height: 100vh; }
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 37.5em) {
     .about {
       height: auto; } }
   .about__text--1 {
