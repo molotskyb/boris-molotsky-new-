@@ -1,6 +1,10 @@
 .btn {
 	padding: 1rem;
 
+	@media only screen and (max-width: $bp-small) {
+		padding: 0.7rem;
+	}
+
 	&:hover,
 	&:active {
 		color: $hover-color-2;
