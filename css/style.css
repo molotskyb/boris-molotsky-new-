@@ -359,12 +359,21 @@ textarea {
 
 .nav__item--1 {
   grid-column: 4 / span 1; }
+  @media only screen and (max-width: 62.5em) {
+    .nav__item--1 {
+      grid-column: 3 / span 1; } }
 
 .nav__item--2 {
   grid-column: 5 / span 1; }
+  @media only screen and (max-width: 62.5em) {
+    .nav__item--2 {
+      grid-column: 4 / span 1; } }
 
 .nav__item--3 {
   grid-column: 6 / span 1; }
+  @media only screen and (max-width: 62.5em) {
+    .nav__item--3 {
+      grid-column: 5 / span 1; } }
 
 .welcome {
   grid-column: full-start / full-end;
@@ -465,6 +474,10 @@ textarea {
     grid-column: 5 / span 2;
     grid-row: 4 / span 1;
     align-self: center; }
+    @media only screen and (max-width: 50em) {
+      .about__pic {
+        grid-column: 4 / span 2;
+        grid-row: 4 / span 1; } }
     @media only screen and (max-width: 37.5em) {
       .about__pic {
         grid-column: 1 / span 6;
@@ -635,15 +648,27 @@ textarea {
   .about__pic {
     margin-left: 16rem;
     margin-top: -8rem; }
+    @media only screen and (max-width: 75em) {
+      .about__pic {
+        margin-left: 2rem; } }
+    @media only screen and (max-width: 50em) {
+      .about__pic {
+        margin-left: 14em; } }
     @media only screen and (max-width: 37.5em) {
       .about__pic {
         margin-top: 2rem;
         margin-left: 4rem; } }
   .about__img {
     max-height: 44.5vh; }
+    @media only screen and (max-width: 75em) {
+      .about__img {
+        max-height: 25vh; } }
     @media only screen and (max-width: 50em) {
       .about__img {
-        max-height: 55vh; } }
+        max-height: 25vh; } }
+    @media only screen and (max-width: 37.5em) {
+      .about__img {
+        max-height: 44.5vh; } }
 
 .myprojects {
   background-color: rgba(255, 166, 0, 0.514);

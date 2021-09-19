@@ -25,6 +25,15 @@
 		margin-left: 16rem;
 		margin-top: -8rem;
 
+		@media only screen and (max-width: $bp-largest) {
+			// margin-top: 2rem;
+			margin-left: 2rem;
+		}
+		@media only screen and (max-width: $bp-medium) {
+			// margin-top: 2rem;
+			margin-left: 14em;
+		}
+
 		@media only screen and (max-width: $bp-small) {
 			margin-top: 2rem;
 			margin-left: 4rem;
@@ -36,16 +45,18 @@
 
 		// max-width: 30vw;
 
+		@media only screen and (max-width: $bp-largest) {
+			max-height: 25vh;
+			// max-width: 30vw;
+		}
+
 		@media only screen and (max-width: $bp-medium) {
-			max-height: 55vh;
+			max-height: 25vh;
 			// max-width: 30vw;
 		}
 
 		@media only screen and (max-width: $bp-small) {
-			// max-width: 70vw;
-			// height: 30vh;
-			// margin-top: -6rem;
-			// margin-bottom: -3rem;
+			max-height: 44.5vh;
 		}
 	}
 }
