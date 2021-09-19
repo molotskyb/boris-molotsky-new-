@@ -237,6 +237,10 @@ a {
 
 .popup__close {
 	font-size: $big-font-size;
+
+	@media only screen and (max-width: $bp-small) {
+		font-size: $huge-font-size-2;
+	}
 }
 
 .form {
@@ -245,24 +249,44 @@ a {
 		color: $welcome-bg-color;
 		font-size: $medium-font-size;
 		font-family: $welcome-font-2;
+
+		@media only screen and (max-width: $bp-small) {
+			font-size: $huge-font-size-3;
+		}
 	}
 	&__label {
 		// color: white;
 		font-size: $small-font-size;
 		font-family: $welcome-font-2;
+
+		@media only screen and (max-width: $bp-small) {
+			font-size: $huge-font-size;
+		}
 	}
 	&__input {
 		font-size: $small-font-size;
 		font-family: $welcome-font-1;
+
+		@media only screen and (max-width: $bp-small) {
+			font-size: $huge-font-size;
+		}
 	}
 
 	&__btn {
 		font-size: $small-font-size;
 		font-family: $welcome-font-2;
+
+		@media only screen and (max-width: $bp-small) {
+			font-size: $huge-font-size;
+		}
 	}
 }
 
 textarea {
 	font-size: $small-font-size;
 	font-family: $welcome-font-1;
+
+	@media only screen and (max-width: $bp-small) {
+		font-size: $huge-font-size-3;
+	}
 }

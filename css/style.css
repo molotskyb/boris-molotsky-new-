@@ -182,27 +182,45 @@ a {
 
 .popup__close {
   font-size: 4rem; }
+  @media only screen and (max-width: 37.5em) {
+    .popup__close {
+      font-size: 10rem; } }
 
 .form__headline {
   color: rgba(10, 25, 47, 0.85);
   font-size: 3rem;
   font-family: "Quicksand", sans-serif; }
+  @media only screen and (max-width: 37.5em) {
+    .form__headline {
+      font-size: 8rem; } }
 
 .form__label {
   font-size: 2rem;
   font-family: "Quicksand", sans-serif; }
+  @media only screen and (max-width: 37.5em) {
+    .form__label {
+      font-size: 6rem; } }
 
 .form__input {
   font-size: 2rem;
   font-family: "IBM Plex Sans Arabic", sans-serif; }
+  @media only screen and (max-width: 37.5em) {
+    .form__input {
+      font-size: 6rem; } }
 
 .form__btn {
   font-size: 2rem;
   font-family: "Quicksand", sans-serif; }
+  @media only screen and (max-width: 37.5em) {
+    .form__btn {
+      font-size: 6rem; } }
 
 textarea {
   font-size: 2rem;
   font-family: "IBM Plex Sans Arabic", sans-serif; }
+  @media only screen and (max-width: 37.5em) {
+    textarea {
+      font-size: 8rem; } }
 
 .btn {
   padding: 1rem; }
@@ -233,20 +251,17 @@ textarea {
     margin-left: 1rem; }
     @media only screen and (max-width: 37.5em) {
       .popup__pic {
-        margin-left: 4rem;
-        margin-bottom: -12rem;
-        margin-top: 2em; } }
+        display: none; } }
   .popup__img {
     display: block;
-    height: 45.5vh;
+    width: 100%;
     padding: 1rem 1rem; }
     @media only screen and (max-width: 62.5em) {
       .popup__img {
         height: 18vh; } }
     @media only screen and (max-width: 37.5em) {
       .popup__img {
-        height: 40vh;
-        margin-bottom: 4em; } }
+        height: 30vh; } }
   .popup__content {
     position: absolute;
     top: 50%;
@@ -276,24 +291,12 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .popup__right {
         width: 100%; } }
-  .popup__text {
-    margin-bottom: 4rem;
-    -moz-column-count: 2;
-    -moz-column-gap: 4rem;
-    -moz-column-rule: 1px solid rgba(10, 25, 47, 0.85);
-    column-count: 1;
-    column-gap: 4rem;
-    column-rule: 1px solid rgba(10, 25, 47, 0.85);
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto; }
   .popup:target {
     opacity: 1;
     visibility: visible; }
   .popup:target .popup__content {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1); }
+    transform: translate(-50%, -50%) scale(0.8); }
   .popup__close {
     margin-right: -0.5rem; }
     .popup__close:link, .popup__close:visited {
@@ -707,6 +710,14 @@ form {
 
 textarea {
   width: 35vw; }
+  @media only screen and (max-width: 37.5em) {
+    textarea {
+      width: 100%; } }
+
+@media only screen and (max-width: 37.5em) {
+  .form {
+    width: 90vw;
+    margin: 4em; } }
 
 .form__headline {
   margin-bottom: 2vh; }

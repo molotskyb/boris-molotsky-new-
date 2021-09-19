@@ -68,9 +68,10 @@ form {
 
 textarea {
 	width: 35vw;
-	// @media only screen and (max-width: $bp-small) {
-	// 	width: 100%;
-	// }
+
+	@media only screen and (max-width: $bp-small) {
+		width: 100%;
+	}
 }
 
 // .form__btn {
@@ -78,6 +79,11 @@ textarea {
 // }
 
 .form {
+	@media only screen and (max-width: $bp-small) {
+		width: 90vw;
+		margin: 4em;
+	}
+
 	&__headline {
 		// margin-top: 2vh;
 		margin-bottom: 2vh;
@@ -90,18 +96,6 @@ textarea {
 
 	&__input {
 		width: 100%;
-
-		// &[type="text"] {
-		// 	border: 1px 2px red;
-		// }
-
-		// &:focus {
-		// 	border-color: red;
-		// }
-
-		// &--email {
-		// 	width: 100%;
-		// }
 	}
 
 	&__item {
