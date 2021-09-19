@@ -192,7 +192,7 @@ a {
   font-family: "Quicksand", sans-serif; }
   @media only screen and (max-width: 37.5em) {
     .form__headline {
-      font-size: 10rem; } }
+      font-size: 12rem; } }
 
 .form__label {
   font-size: 2rem;
