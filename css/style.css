@@ -353,6 +353,9 @@ textarea {
   grid-template-rows: 15vh 10vh 15vh;
   grid-gap: 4rem;
   height: 100vh; }
+  @media only screen and (max-width: 37.5em) {
+    .welcome {
+      grid-template-rows: 15vh 5vh 10vh; } }
   .welcome__text--1 {
     grid-column: 2 / span 4;
     grid-row: 1 / span 1;
