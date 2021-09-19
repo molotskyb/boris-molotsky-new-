@@ -1,6 +1,6 @@
 .about {
 	background-color: white;
-	margin: 2em;
+	// margin: 2em;
 
 	@media only screen and (max-width: $bp-small) {
 		padding: 1rem;
@@ -21,9 +21,20 @@
 		}
 	}
 
+	&__pic {
+		margin-left: 16rem;
+		margin-top: -8rem;
+
+		@media only screen and (max-width: $bp-small) {
+			margin-top: 2rem;
+			margin-left: 4rem;
+		}
+	}
+
 	&__img {
-		max-height: 52.5vh;
-		max-width: 30vw;
+		max-height: 44.5vh;
+
+		// max-width: 30vw;
 
 		@media only screen and (max-width: $bp-medium) {
 			max-height: 55vh;
@@ -31,10 +42,10 @@
 		}
 
 		@media only screen and (max-width: $bp-small) {
-			max-width: 70vw;
-			height: 40vh;
-			margin-top: -6rem;
-			margin-bottom: -3rem;
+			// max-width: 70vw;
+			// height: 30vh;
+			// margin-top: -6rem;
+			// margin-bottom: -3rem;
 		}
 	}
 }

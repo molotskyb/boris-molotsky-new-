@@ -462,13 +462,13 @@ textarea {
       .about__text--6 {
         grid-column: 5 / span 1; } }
   .about__pic {
-    grid-column: 6 / span 1;
-    grid-row: 3 / span 2;
+    grid-column: 5 / span 2;
+    grid-row: 4 / span 1;
     align-self: center; }
     @media only screen and (max-width: 37.5em) {
       .about__pic {
         grid-column: 1 / span 6;
-        grid-row: 5 / span 2; } }
+        grid-row: 5 / span 1; } }
 
 .myprojects {
   grid-column: full-start / full-end;
@@ -620,8 +620,7 @@ textarea {
       transform: translateY(-0.85em) rotate(-135deg); } }
 
 .about {
-  background-color: white;
-  margin: 2em; }
+  background-color: white; }
   @media only screen and (max-width: 37.5em) {
     .about {
       padding: 1rem; } }
@@ -633,18 +632,18 @@ textarea {
         margin-top: 2rem;
         margin-bottom: 2rem;
         margin: 0em; } }
+  .about__pic {
+    margin-left: 16rem;
+    margin-top: -8rem; }
+    @media only screen and (max-width: 37.5em) {
+      .about__pic {
+        margin-top: 2rem;
+        margin-left: 4rem; } }
   .about__img {
-    max-height: 52.5vh;
-    max-width: 30vw; }
+    max-height: 44.5vh; }
     @media only screen and (max-width: 50em) {
       .about__img {
         max-height: 55vh; } }
-    @media only screen and (max-width: 37.5em) {
-      .about__img {
-        max-width: 70vw;
-        height: 40vh;
-        margin-top: -6rem;
-        margin-bottom: -3rem; } }
 
 .myprojects {
   background-color: rgba(255, 166, 0, 0.514);
