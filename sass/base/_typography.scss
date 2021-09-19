@@ -32,7 +32,7 @@ a {
 	// font-size: $medium-font-size-5;
 
 	@media only screen and (max-width: $bp-medium) {
-		font-size: $big-font-size;
+		font-size: $big-font-size-2;
 		font-weight: 600;
 	}
 
@@ -48,6 +48,9 @@ a {
 			font-family: $welcome-font-1;
 			color: white;
 
+			@media only screen and (max-width: $bp-medium) {
+				font-size: $huge-font-size-3;
+			}
 			@media only screen and (max-width: $bp-small) {
 				font-size: $huge-font-size-4;
 			}
@@ -57,6 +60,10 @@ a {
 			font-size: $big-font-size;
 			font-family: $welcome-font-2;
 			color: $text-color-1;
+
+			@media only screen and (max-width: $bp-medium) {
+				font-size: $huge-font-size-3;
+			}
 
 			@media only screen and (max-width: $bp-small) {
 				font-size: $huge-font-size-3;
@@ -69,7 +76,7 @@ a {
 			// color: black;
 
 			@media only screen and (max-width: $bp-medium) {
-				font-size: $small-font-size-2;
+				font-size: $huge-font-size;
 			}
 
 			@media only screen and (max-width: $bp-small) {

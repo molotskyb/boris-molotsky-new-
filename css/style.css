@@ -48,7 +48,7 @@ a {
 
 @media only screen and (max-width: 50em) {
   .nav__link {
-    font-size: 4rem;
+    font-size: 5.8rem;
     font-weight: 600; } }
 
 @media only screen and (max-width: 37.5em) {
@@ -59,6 +59,9 @@ a {
   font-size: 6rem;
   font-family: "IBM Plex Sans Arabic", sans-serif;
   color: white; }
+  @media only screen and (max-width: 50em) {
+    .welcome__text--1 {
+      font-size: 8rem; } }
   @media only screen and (max-width: 37.5em) {
     .welcome__text--1 {
       font-size: 12rem; } }
@@ -67,6 +70,9 @@ a {
   font-size: 4rem;
   font-family: "Quicksand", sans-serif;
   color: #8892b0; }
+  @media only screen and (max-width: 50em) {
+    .welcome__text--2 {
+      font-size: 8rem; } }
   @media only screen and (max-width: 37.5em) {
     .welcome__text--2 {
       font-size: 8rem; } }
@@ -76,7 +82,7 @@ a {
   font-family: "Quicksand", sans-serif; }
   @media only screen and (max-width: 50em) {
     .welcome__text--btn {
-      font-size: 2.6rem; } }
+      font-size: 6rem; } }
   @media only screen and (max-width: 37.5em) {
     .welcome__text--btn {
       font-size: 8rem; } }
@@ -427,7 +433,7 @@ textarea {
   grid-template-rows: auto;
   grid-gap: 1rem;
   height: 100vh; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .about {
       height: auto; } }
   .about__text--1 {
