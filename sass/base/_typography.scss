@@ -93,6 +93,10 @@ a {
 			font-family: $welcome-font-2;
 			color: $text-color-1;
 
+			@media only screen and (max-width: $bp-large) {
+				font-size: $huge-font-size;
+			}
+
 			@media only screen and (max-width: $bp-small) {
 				font-size: $huge-font-size-2;
 			}
@@ -102,8 +106,8 @@ a {
 			font-family: $welcome-font-3;
 			font-weight: 400;
 
-			@media only screen and (max-width: $bp-medium) {
-				font-size: $small-font-size-2;
+			@media only screen and (max-width: $bp-large) {
+				font-size: $big-font-size;
 			}
 
 			@media only screen and (max-width: $bp-small) {
@@ -115,8 +119,8 @@ a {
 			font-family: $welcome-font-3;
 			font-weight: 300;
 
-			@media only screen and (max-width: $bp-medium) {
-				font-size: $small-font-size-2;
+			@media only screen and (max-width: $bp-large) {
+				font-size: $big-font-size;
 			}
 
 			@media only screen and (max-width: $bp-small) {
@@ -128,8 +132,8 @@ a {
 			font-family: $welcome-font-3;
 
 			font-weight: 300;
-			@media only screen and (max-width: $bp-medium) {
-				font-size: $small-font-size-2;
+			@media only screen and (max-width: $bp-large) {
+				font-size: $big-font-size;
 			}
 
 			@media only screen and (max-width: $bp-small) {
@@ -141,8 +145,8 @@ a {
 			font-family: $welcome-font-3;
 			font-weight: 300;
 
-			@media only screen and (max-width: $bp-medium) {
-				font-size: $small-font-size-2;
+			@media only screen and (max-width: $bp-large) {
+				font-size: $big-font-size;
 			}
 
 			@media only screen and (max-width: $bp-small) {
@@ -154,8 +158,8 @@ a {
 			font-family: $welcome-font-3;
 			font-weight: 300;
 
-			@media only screen and (max-width: $bp-medium) {
-				font-size: $small-font-size-2;
+			@media only screen and (max-width: $bp-large) {
+				font-size: $big-font-size;
 			}
 
 			@media only screen and (max-width: $bp-small) {
@@ -172,35 +176,14 @@ a {
 			font-family: $welcome-font-2;
 			color: $text-color-1;
 
+			@media only screen and (max-width: $bp-large) {
+				font-size: $huge-font-size;
+			}
+
 			@media only screen and (max-width: $bp-small) {
 				font-size: $huge-font-size-2;
 			}
 		}
-		// &--2 {
-		// 	font-size: $small-font-size;
-		// 	font-family: $welcome-font-3;
-		// 	font-weight: 400;
-		// }
-		// &--3 {
-		// 	font-size: $small-font-size;
-		// 	font-family: $welcome-font-3;
-		// 	font-weight: 300;
-		// }
-		// &--4 {
-		// 	font-size: $small-font-size;
-		// 	font-family: $welcome-font-3;
-		// 	font-weight: 300;
-		// }
-		// &--5 {
-		// 	font-size: $small-font-size;
-		// 	font-family: $welcome-font-3;
-		// 	font-weight: 300;
-		// }
-		// &--6 {
-		// 	font-size: $small-font-size;
-		// 	font-family: $welcome-font-3;
-		// 	font-weight: 300;
-		// }
 	}
 
 	&__box {
